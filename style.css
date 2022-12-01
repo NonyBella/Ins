@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+.first-section {
+    width: 18%;
+    border: 1px solid grey;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#logo {
+    width: 150px;
+}
+
+.nav img {
+    width: 30px;
+    padding: 0;
+}
+
+.nav {
+    padding-inline-start: 0;
+}
+
+.nav li {
+
+    list-style-type: none;
+    padding: 16px;
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+
+}
+
+.more {
+    margin-top: 40px;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.second-section {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.third-section {
+    width: 32%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.suggestion-img {
+    max-width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.suggestion-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suggestion-link {
+    color: rgb(29, 161, 212);
+    font-weight: bolder;
+}
+
+.third-section ul {
+    list-style: none;
+}
+
+.card-1 {
+    height: 120px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    margin: 20px 0;
+}
+
+.card-1 img {
+    max-width: 70px;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.card-2 {
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.user-name img {
+    max-width: 28px;
+    border-radius: 50%;
+}
+
+.user-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.user-action img {
+    margin-right: 10px;
+    max-width: 30px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.user-msg {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.user-msg input {
+    border: 0;
+}
